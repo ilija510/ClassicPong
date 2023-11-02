@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         PlayerPrefs.SetInt("difficulty", isEasy ? 0 : 1);
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Gameplay");
     }
 
     public void ChangeDifficulty()
